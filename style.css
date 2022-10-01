@@ -1,3 +1,11 @@
+body {
+  font-family: "Roboto", "Arial" sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+
 /* SITEHEADER */
 .site-header {
   background-color: #fff;
@@ -70,13 +78,7 @@
 .hero-heading{
   font-size: 40px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
-}
-
-.hero-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", "Roboto", "Arial", Sans-serif;
 }
 
 
@@ -85,7 +87,7 @@
   width: 440px;
   font-size: 72px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", "Roboto", "Arial", Sans-serif;
 }
 
 
@@ -103,14 +105,9 @@
 .feature-title {
   font-size: 24px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", "Roboto", "Arial", Sans-serif;
 }
 
-.feature-info {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-}
 
 
 /* PROMO */
@@ -119,15 +116,15 @@
   color: #fff;
 }
 
+
 .promo-content {
   width: 440px;
-  font-size: 40px;
-  line-height: 48px;
 }
 
-.promo-text {
-  font-size: 16px;
-  line-height: 1.5;
+.promo-heading {
+  font-family: "Roboto Condensed", "Roboto", "Arial", Sans-serif;
+  font-size: 40px;
+  line-height: 48px;
 }
 
 .promo-highligh {
@@ -157,105 +154,10 @@
 
 .site-footer-links {
   width: 224px;
+  line-height: 19px;
 }
 
 .site-footer-links a {
-  font-size: 16px;
-  line-height: 19px;
   color: #252420;
   text-decoration: none;
 }
-
-/*
-.features{
-  width: 1440px;
-  height: 936px;
-  background-color: #fff;
-}
-
-.features h2{
-  width: 435px;
-  height: 172px;
-  font-weight: 700;
-  font-size: 72px;
-}
-
-.features .list .item{
-  width: 340px;
-  height: 245px;
-}
-
-.features .list .item:nth-child(1) h3{
-  width: 214px;
-  height: 29px;
-}
-
-.features .list .item:nth-child(2) h3{
-  width: 170px;
-  height: 29px;
-}
-
-.features .list .item:nth-child(3) h3{
-  width: 196px;
-  height: 29px;
-}
-
-.features .list .item p{
-  width: 314px;
-  height: 72px;
-} */
-
-/* SECTION 3 */
-/* .stock{
-  background-color: #252420;
-  color: #fff;
-  width: 1100px;
-  height: 504px;
-  border: 1px solid red;
-}
-.stock-main{
-  border: 1px solid red;
-  width: 440px;
-  height: 281px;
-}
-
-.stock-about h2{
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 120%;
-  letter-spacing: 0.5px;
-}
-
-.stock-about p{
-  width: 440px;
-  height: 48px;
-} */
-
-/* FOOTER */
-
-/* footer{
-  background-color: #F8F8F8;
-}
-
-.footer-list-one{
-border: 1px solid red;
-width: 224px;
-height: 159px;
-}
-
-.footer-list-two{
-  border: 1px solid red;
-  width: 224px;
-  height: 292px;
-}
-.footer-list-three{
-  border: 1px solid red;
-  width: 224px;
-  height: 89px;
-}
-.footer-list-four{
-  border: 1px solid red;
-  width: 224px;
-  height: 89px;
-} */
