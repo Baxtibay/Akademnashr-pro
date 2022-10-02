@@ -17,6 +17,9 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
+  border-top: 5px solid #FF7500;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .logo-link {
@@ -38,6 +41,7 @@ body {
 
 /* SITENAV */
 .sitenav-list {
+  padding: 0;
   display: flex;
   list-style: none;
 }
@@ -66,6 +70,11 @@ body {
 
 /* MAINLINK */
 .main-link {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", "Roboto", "Arial", Sans-serif;;
   font-size: 13px;
   line-height: 15px;
   background-color: #FF7500;
@@ -90,6 +99,8 @@ body {
   align-items: center;
   color: #fff;
   background-color: #252420;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .hero-content {
@@ -99,12 +110,14 @@ body {
 .orange-line {
   width: 80px;
   height: 3px;
+  border: none;
   background-color: #FF7500;
 }
 
 .hero-img {
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 
 .python-about h1{
@@ -130,6 +143,10 @@ body {
 
 
 /* FEATURES */
+.features {
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
 .features-heading {
   width: 440px;
   font-size: 72px;
@@ -139,6 +156,7 @@ body {
 
 .features-list {
   display: flex;
+  padding: 0;
   justify-content: space-between;
   list-style: none;
 }
@@ -150,8 +168,12 @@ body {
 }
 
 .feature-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
+  border-radius: 50%;
   background-color: rgba(255, 117, 0, 0.2);
 }
 
@@ -166,6 +188,9 @@ body {
 /* PROMO */
 .promo {
   display: flex;
+  padding-top: 120px;
+  padding-bottom: 160px;
+  border-radius: 12px;
   justify-content: space-between;
   align-items: center;
   background-color: #252420;
@@ -190,12 +215,15 @@ body {
 .promo-img {
   width: 440px;
   height: 440px;
+  border-radius: 12px;
   object-fit: cover;
 }
 
 
 /* SITE-FOOTER */
 .site-footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: #f8f8f8;
 }
 
@@ -210,6 +238,7 @@ justify-content: space-between;
 }
 
 .site-footer-socials {
+  padding: 0;
   display: flex;
   align-items: center;
 }
@@ -229,6 +258,7 @@ justify-content: space-between;
 
 .site-footer-divider {
   height: 2px;
+  border: 0;
   background-color: rgba(37, 36, 32, 0.5);
 }
 
@@ -237,6 +267,7 @@ justify-content: space-between;
 }
 
 .site-footer-links {
+  padding: 0;
   width: 224px;
   line-height: 19px;
 }
@@ -253,6 +284,6 @@ justify-content: space-between;
   color: #FF7500;
 }
 
-.site-footer-links a:focus {
+.site-footer-links a:active {
   opacity: 0.6;
 }
