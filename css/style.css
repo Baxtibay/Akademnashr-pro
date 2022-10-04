@@ -42,8 +42,18 @@ body {
 /* SITENAV */
 .sitenav-list {
   padding: 0;
+  margin: 0;
+  margin-right: 32px;
   display: flex;
   list-style: none;
+}
+
+.sitenav-item {
+  margin-right: 32px;
+}
+
+.sitenav-item:last-child {
+  margin-right: 0;
 }
 
 .sitenav-link {
@@ -109,6 +119,8 @@ body {
 
 .orange-line {
   width: 80px;
+  margin: 0;
+  margin-bottom: 40px;
   height: 3px;
   border: none;
   background-color: #FF7500;
@@ -136,9 +148,16 @@ body {
 }
 
 .hero-heading{
+  margin-top: 0;
+  margin-bottom: 24px;
   font-size: 40px;
   line-height: 1.2;
   font-family: "Roboto Condensed", "Roboto", "Arial", Sans-serif;
+}
+
+.hero-text {
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 
 
@@ -149,6 +168,8 @@ body {
 }
 .features-heading {
   width: 440px;
+  margin-top: 0;
+  margin-bottom: 72px;
   font-size: 72px;
   line-height: 1.2;
   font-family: "Roboto Condensed", "Roboto", "Arial", Sans-serif;
@@ -157,7 +178,7 @@ body {
 .features-list {
   display: flex;
   padding: 0;
-  justify-content: space-between;
+  margin: 0;
   list-style: none;
 }
 
@@ -165,6 +186,11 @@ body {
 /* FEATURE */
 .feature {
   width: 340px;
+  margin-right: 40px;
+}
+
+.feature:last-child {
+  margin-right: 0;
 }
 
 .feature-icon-wrapper {
@@ -188,8 +214,6 @@ body {
 /* PROMO */
 .promo {
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 160px;
   border-radius: 12px;
   justify-content: space-between;
   align-items: center;
@@ -203,9 +227,24 @@ body {
 }
 
 .promo-heading {
+  margin: 0;
+  margin-bottom: 24px;
   font-family: "Roboto Condensed", "Roboto", "Arial", Sans-serif;
   font-size: 40px;
   line-height: 48px;
+}
+
+.promo-info-wrapper {
+  margin-bottom: 24px;
+}
+
+.promo-text {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.promo-text:last-child {
+  margin-bottom: 0;
 }
 
 .promo-highligh {
@@ -239,8 +278,18 @@ justify-content: space-between;
 
 .site-footer-socials {
   padding: 0;
+  margin: 0;
   display: flex;
   align-items: center;
+}
+
+/* Img block */
+.site-footer-socials li {
+  margin-right: 16px;
+}
+
+.site-footer-socials li:last-child {
+  margin-right: 0;
 }
 
 .site-footer-socials a {
@@ -259,6 +308,8 @@ justify-content: space-between;
 .site-footer-divider {
   height: 2px;
   border: 0;
+  margin-top: 40px;
+  margin-bottom: 64px;
   background-color: rgba(37, 36, 32, 0.5);
 }
 
@@ -268,8 +319,14 @@ justify-content: space-between;
 
 .site-footer-links {
   padding: 0;
+  margin: 0;
+  margin-right: 68px;
   width: 224px;
   line-height: 19px;
+}
+
+.site-footer-links:last-child {
+  margin-right: 0;
 }
 
 .site-footer-links a {
