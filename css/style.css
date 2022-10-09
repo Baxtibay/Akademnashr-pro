@@ -1,4 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Roboto", "Arial" sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -13,13 +19,25 @@ body {
 
 /* SITEHEADER */
 .site-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   background-color: #fff;
   border-top: 5px solid #FF7500;
   padding-top: 16px;
   padding-bottom: 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo-link {
@@ -108,13 +126,16 @@ body {
 
 /* HERO */
 .hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   color: #fff;
   background-color: #252420;
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero-content {
@@ -149,6 +170,7 @@ body {
 .hero img{
   width: 510px;
   height: 510px;
+  box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
 }
 
 .hero-heading{
@@ -203,26 +225,38 @@ body {
   align-items: center;
   width: 100px;
   height: 100px;
+  margin-bottom: 32px;
   border-radius: 50%;
   background-color: rgba(255, 117, 0, 0.2);
 }
 
 .feature-title {
+  margin-top: 0;
+  margin-bottom: 12px;
   font-size: 24px;
   line-height: 1.2;
   font-family: "Roboto Condensed", "Roboto", "Arial", Sans-serif;
 }
 
+.feature-info {
+  margin: 0;
+}
 
 
 /* PROMO */
 .promo {
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+
+.promo-inner {
   display: flex;
-  border-radius: 12px;
   justify-content: space-between;
   align-items: center;
-  background-color: #252420;
   color: #fff;
+  padding: 64px;
+  border-radius: 12px;
+  background-color: #252420;
 }
 
 
@@ -332,10 +366,19 @@ justify-content: space-between;
   margin-right: 68px;
   width: 224px;
   line-height: 19px;
+  font-family: "Roboto", "Arial" sans-serif;
 }
 
 .site-footer-links:last-child {
   margin-right: 0;
+}
+
+.site-footer-links li {
+  margin-bottom: 16px;
+}
+
+.site-footer-links li:last-child {
+  margin-bottom: 0;
 }
 
 .site-footer-links a {
